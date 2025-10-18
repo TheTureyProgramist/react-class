@@ -1,5 +1,5 @@
 import React from 'react';
-class TaskList extends React.Component {
+import styled from 'styled-components';
 const Button = styled.button`
   width: 100px;
   height: 35px;
@@ -12,6 +12,7 @@ const Text = styled.h2`
   color: blue;
   width: 100%;
 `;
+class TaskList extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
